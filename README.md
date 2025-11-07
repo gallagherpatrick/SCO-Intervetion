@@ -12,7 +12,7 @@ The GK SCO intervention app should run along side your Kafka instance for best r
 
 After you have cloned this repo
 
-Update the wsUri (/public/script.js) variable with the IP/Hostname of the system the application is being served on.
+Update the wsUri variable (/public/script.js) with the IP/Hostname of the system the application is being served on.
 
 Run **npm install** from the command line to install all dependincies
 
