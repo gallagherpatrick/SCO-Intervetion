@@ -10,9 +10,11 @@ The GK SCO Intervention app is a nodejs application that uses Kafkajs libraries 
 ### How to
 The GK SCO intervention app should run along side your Kafka instance on the same server for best results. It consumes the messages from kafka and pipes those into a websocket for the front end to consume.
 
-After you have cloned this repo
+Ensure you have the versions of npm and nodejs above installed on your server or higher
 
-Update the wsUri variable (/public/script.js) with the IP/Hostname of the system the application is being served on.
+After you have cloned the repo
+
+Update the ipAdd variable (/public/script.js) with the IP/Hostname of the server that you are running the nodejs server on.
 
 Run **npm install** from the command line to install all dependincies
 

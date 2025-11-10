@@ -1,4 +1,6 @@
-const wsUri = 'ws://192.168.2.172:8181';
+// This url points back to the nodejs server where the webscoket is hosted
+const ipAdd = '192.168.2.205';
+const wsUri = `ws://${ipAdd}:8181`;
 let websocket;
 let pingInterval;
 let reconnectTimeout;
@@ -19,6 +21,7 @@ let reconnectTimeout;
 //     "blockingFlag": true
 // }
 
+// This function handles the connection of the websocket 
 function connectWebSocket() {
   websocket = new WebSocket(wsUri);
 
@@ -224,6 +227,3 @@ async function ageRestrictionRequest () {
     return null
   }
 }
-
-// htmlRenderer(message);
-// statusUpdater(message);

@@ -4,7 +4,7 @@ const EventEmitter = require('events');
 const express = require('express');
 
 const app = express();
-const wss = new WebSocketServer({ host: '192.168.2.172', port: 8181 });
+const wss = new WebSocketServer({ host: '0.0.0.0', port: 8181 });
 const emitter = new EventEmitter();
 emitter.setMaxListeners(15);
 
