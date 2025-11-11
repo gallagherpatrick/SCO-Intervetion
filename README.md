@@ -20,7 +20,7 @@ Run **npm install** from the command line to install all dependincies
 
 After that is finished run **npm run dev** to start the server
 
-## NoVNC configuration on POS
+## NoVNC configuration on SCO
 
 On your GK Selfcheckout you will need to install 3 tools WSL NoVNC and Tightvnc
 
